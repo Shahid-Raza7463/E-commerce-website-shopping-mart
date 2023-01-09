@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+/* for all navigation bar */
+
+:root {
+  --main-bg-color: #2a2260;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
+  position: fixed;
+  top: 0px;
+  height: 62px;
+  width: 1343px;
+  /* width: 1292px; */
+  /* for position fixed copy value of main tag and header tag */
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  padding: 0 25px;
+  width: 160px;
+  height: 52px;
+}
+
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+}
+
+.searchdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchdiv input {
+  width: 459px;
+  height: 35px;
+  border-radius: 18px;
+  padding: 0 12px;
+  margin-right: -22px;
+}
+
+.searchimg {
+  height: 17px;
+  width: 26px;
+  position: relative;
+  left: -22px;
+  top: 2px;
+}
+.container_login {
+  width: 179px;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 21px;
+}
+.log {
+  background-color: white;
+  height: 36px;
+  width: 81px;
+  border-radius: 13px;
+  font-weight: bold;
+  margin-left: 12px;
+  font-family: "Lato", sans-serif;
+}
+.logout {
+  background-color: white;
+  height: 36px;
+  width: 81px;
+  border-radius: 13px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+.logout:hover {
+  box-shadow: 0px 1px 4px 2px red;
+  border: 6px yellow solid;
+  color: blue;
+}
+.log:hover {
+  box-shadow: 0px 1px 4px 2px red;
+  border: 6px yellow solid;
+  color: blue;
+}
+.imgsize:hover {
+  box-shadow: 3px 4px 7px 2px #679792;
+}
+.imgsize3:hover {
+  box-shadow: 3px 4px 7px 2px #679792;
+}
+.backward {
+  height: 29px;
+  background: var(--main-bg-color);
+  margin-top: 64px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.arrow {
+  height: 25px;
+  width: 42px;
+  margin-left: 10px;
+}
+main {
+  height: 980px;
+}
+
+/* end header style */
+
+.bodycontainer {
+  height: 487px;
+  width: 1292px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iframe_img_container {
+  height: 473px;
+  width: 1258px;
+  display: inline-flex;
+}
+iframe {
+  height: 506px;
+  width: 766px;
+}
+
+/* for side product*/
+.productss {
+  height: 469px;
+  width: 490px;
+  border-bottom: 4px #ded9d9 solid;
+  background-color: white;
+}
+
+.container-productab {
+  display: flex;
+  flex-direction: row;
+  height: 435px;
+  width: 492px;
+}
+
+.productab {
+  width: 246px;
+  height: 435px;
+  overflow: hidden;
+}
+.img-containerab {
+  height: 339px;
+}
+
+.imgsizeab {
+  height: 337px;
+  width: 246px;
+}
+.textbelowab {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 95px;
+  width: 220px;
+  font-size: 19px;
+}
+
+h2 {
+  font-size: 22px;
+  color: rgba(11, 108, 18, 0.739);
+  padding-left: 119px;
+
+  margin-bottom: 11px;
+}
+
+h4 {
+  font-size: 24px;
+  color: rgba(14, 3, 44, 0.597);
+}
+
+/* trending on shopping mart */
+.titletext {
+  height: 27px;
+  margin-top: 17px;
+  margin-bottom: 15px;
+}
+
+div h3 {
+  font-size: 21px;
+  color: rgba(11, 108, 18, 0.739);
+  margin-left: 28px;
+}
+
+/* for all  line */
+
+.container-product1 {
+  display: flex;
+  height: 344px;
+  justify-content: center;
+}
+
+.product {
+  height: 344px;
+  width: 251px;
+  display: grid;
+  justify-content: center;
+}
+.img-container1 {
+  height: 276px;
+  width: 201px;
+  border: 2px rgb(130, 128, 128) solid;
+  display: flex;
+  justify-content: center;
+}
+.imgsize {
+  height: 276px;
+  width: 201px;
+}
+.textbelow {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 11px;
+  line-height: 20px;
+}
+div h4 {
+  font-size: 20px;
+  color: #4c3093;
+}
+.Rs {
+  font-size: 17px;
+}
+/* for footer tag  */
+
+.footer1 {
+  height: 231px;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.footer_container {
+  height: 205px;
+  width: 864px;
+  display: flex;
+  margin-top: 12px;
+}
+.f_text {
+  height: 201px;
+  width: 233px;
+  line-height: 41px;
+  font-family: "Lato", sans-serif;
+}
+
+.all_imgcontainer {
+  height: 200px;
+  width: 314px;
+  line-height: 76px;
+}
+.fimg_container {
+  display: flex;
+}
+.f_imgsize {
+  height: 26px;
+  width: 30px;
+  border-radius: 37px;
+}
+.fimg_text {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  margin-left: 20px;
+  font-family: "Lato", sans-serif;
+}
+#height {
+  margin-top: 34px;
+}
+.link_f {
+  color: white;
+}
+.l_footer {
+  background-color: #3a60aa;
+  text-align: center;
+  color: #ffeded;
+  font-family: "Lato", sans-serif;
+}
+/* ! after login ok final hai div.show aur container login */
+div .shows {
+  color: white;
+  margin-right: -8px;
+  background-color: rgb(72 159 175);
+  height: 33px;
+  width: 121px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.container_logintt {
+  width: 202px;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 2px;
+  background-color: red;
+}
+/* for responsive */
+
+@media screen and (max-width: 576px) {
+  header {
+    width: 1291px;
+  }
+  nav {
+    width: 1291px;
+    width: 1291px;
+  }
+  .searchimg {
+    width: 20px;
+    left: -8px;
+    top: 2px;
+  }
+  .searchdiv input {
+    width: 413px;
+  }
+  main {
+    width: 1291px;
+  }
+  .containerbody {
+    width: 1291px;
+  }
+  .container-product1 {
+    background-color: red;
+    width: 1291px;
+  }
+  .footer1 {
+    width: 1291px;
+  }
+  .footer_container {
+    width: 1291px;
+  }
+  .footer {
+    width: 1291px;
+  }
+  .l_footer {
+    width: 1291px;
+  }
+}

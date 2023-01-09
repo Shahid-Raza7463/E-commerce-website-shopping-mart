@@ -1,0 +1,76 @@
+body {
+  margin-top: -4px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+form {
+  display: inline-flex;
+  height: 470px;
+  width: 765px;
+  margin: 0px;
+  padding: 0px;
+}
+
+table {
+  background-color: rgb(192 218 232 / 97%);
+  height: 478px;
+  width: 764px;
+  display: inline-flex;
+  justify-content: center;
+  /* position: fixed; */
+}
+
+.formhead {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -6px;
+  color: rgb(12, 64, 187);
+  font-weight: 20px;
+}
+
+.inputt {
+  border: 1px rgb(190, 31, 31) solid;
+  border-radius: 8px;
+  height: 33px;
+  width: 333px;
+  background-color: rgb(251, 253, 255);
+  font-size: 18px;
+  font-family: unset;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+textarea {
+  height: 46px;
+  width: 691px;
+  font-family: unset;
+  border: 1px rgb(190, 31, 31) solid;
+  border-radius: 8px;
+  margin-left: 7px;
+}
+select {
+  height: 37px;
+  width: 339px;
+  background-color: white;
+  font-family: unset;
+  border: 1px rgb(190, 31, 31) solid;
+  border-radius: 8px;
+  margin-left: 8px;
+}
+.btn {
+  height: 36px;
+  width: 189px;
+  background-color: rgb(12, 64, 187);
+  font-family: unset;
+  color: white;
+  border-radius: 62px;
+  margin-left: 87px;
+}
+td {
+  line-height: 60px;
+}
+
+.linet {
+  line-height: 0px;
+}

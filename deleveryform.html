@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=".\css\dileveryform.css">
+    <script src=".\js\delivery.js"></script>
+</head>
+
+<body>
+    <!-- onsubmit=" return form_validate()" 
+    
+    .\php\deliveryform.php-->
+    <form action="" method="post">
+        <table align="center">
+            <th colspan="2">
+                <h2 class="formhead ">Delivery Form<h2>
+            </th>
+            <tr>
+                <td><input type="text" name="name" id="fname" placeholder="Name" class="inputt "></td>
+                <td>
+                    <input type="text" name="mobile1" id="mobile" placeholder="10-digit mobile number" class="inputt">
+                </td>
+            </tr>
+            <tr>
+                <td><input type="text" name="mobile2" id="amobile" placeholder="Alternate number" class="inputt ">
+                </td>
+                <td>
+                    <input type="text" name="pin" id="pin" placeholder="Pin code" class="inputt ">
+                </td>
+            </tr>
+            <tr>
+                <td><input type="text" name="district" id="dsrt" placeholder="District" class="inputt "></td>
+                <td>
+                    <input type="text" name="city" id="city" placeholder="City" class="inputt ">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="linet">
+                    <textarea name="address" cols="20" rows="4" placeholder="Address" id="add"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="selected" id="stat">
+                        <option value="">Select State</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Utter pradesh">utter pradesh</option>
+                        <option value="Punjab">Punjab</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="text" name="landmark" placeholder="Landmark" class="inputt ">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="conformed.html"><input type="button" name="submit" value="Submit" class="btn"
+                            onclick="form_validate()"></a>
+                </td>
+                <td>
+                    <input type="button" name="name" value="Cancel" class="btn ">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+
+</html>

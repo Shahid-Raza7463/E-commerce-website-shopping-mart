@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+/* start from here for navigation tag */
+
+:root {
+  --main-bg-color: #2a2260;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  padding: 0 25px;
+  width: 160px;
+  height: 52px;
+  /* background-image: linear-gradient(to right,red,yellow); */
+}
+
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+}
+
+.searchdiv {
+  display: flex;
+  align-items: center;
+}
+
+.searchdiv input {
+  width: 360px;
+  height: 31px;
+  border-radius: 31px;
+  margin: 0 10px 0 10px;
+  padding: 0 27px;
+}
+
+.searchimg {
+  height: 17px;
+  width: 26px;
+  position: relative;
+  left: -52px;
+  top: 1px;
+}
+
+footer {
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

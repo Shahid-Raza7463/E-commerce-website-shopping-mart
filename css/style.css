@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+/* for all navigation bar */
+
+:root {
+  --main-bg-color: #2a2260;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
+  top: 0px;
+  height: 62px;
+  width: 1343px;
+  position: fixed;
+  /* for position fixed ,copy value of main tag and header tag */
+}
+
+nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  padding: 0 25px;
+  width: 160px;
+  height: 52px;
+}
+
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+}
+
+.searchdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchdiv input {
+  width: 459px;
+  height: 35px;
+  border-radius: 18px;
+  padding: 0 12px;
+  margin-right: -22px;
+}
+
+.searchimg {
+  height: 17px;
+  width: 26px;
+  position: relative;
+  left: -22px;
+  top: 2px;
+}
+.container_login {
+  width: 179px;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 21px;
+}
+.log {
+  background-color: white;
+  height: 36px;
+  width: 81px;
+  border-radius: 13px;
+  font-weight: bold;
+  margin-left: 12px;
+  font-family: "Lato", sans-serif;
+}
+.logout {
+  background-color: white;
+  height: 36px;
+  width: 81px;
+  border-radius: 13px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+.logout:hover {
+  box-shadow: 0px 1px 4px 2px red;
+  border: 6px yellow solid;
+  color: blue;
+}
+.log:hover {
+  box-shadow: 0px 1px 4px 2px red;
+  border: 6px yellow solid;
+  color: blue;
+}
+.imgsize:hover {
+  box-shadow: 3px 4px 7px 2px #679792;
+}
+.imgsize3:hover {
+  box-shadow: 3px 4px 7px 2px #679792;
+}
+main {
+  height: 1718px;
+  margin-top: 68px;
+}
+
+/* for big image deign */
+
+.bgimage-container {
+  margin-top: 10px;
+  height: 467px;
+  display: flex;
+  justify-content: center;
+}
+.big-imagediv {
+  height: 464px;
+  width: 1282px;
+  display: flex;
+  justify-content: center;
+}
+
+#big-image {
+  height: 466px;
+  width: 1246px;
+}
+
+/* trending on shopping mart */
+.titletext {
+  height: 27px;
+  margin-top: 17px;
+  margin-bottom: 15px;
+}
+
+div h3 {
+  font-size: 21px;
+  color: rgba(11, 108, 18, 0.739);
+  margin-left: 28px;
+}
+
+/* for all  line */
+
+.container-product1 {
+  display: flex;
+  height: 344px;
+  justify-content: center;
+}
+
+.product {
+  height: 344px;
+  width: 251px;
+  display: grid;
+  justify-content: center;
+}
+.img-container1 {
+  height: 276px;
+  width: 201px;
+  border: 2px rgb(130, 128, 128) solid;
+  display: flex;
+  justify-content: center;
+}
+.imgsize {
+  height: 276px;
+  width: 201px;
+}
+.textbelow {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 11px;
+  line-height: 20px;
+}
+div h4 {
+  font-size: 20px;
+  color: #4c3093;
+}
+.Rs {
+  font-size: 17px;
+}
+
+/* 2nd and 3rd line only */
+.img-container {
+  height: 276px;
+  width: 201px;
+  display: flex;
+  justify-content: center;
+}
+
+.imgradius2 {
+  border: 4px rgba(204, 191, 191, 0.603) solid;
+  border-radius: 117px;
+}
+.imgradius3 {
+  border: 4px rgba(204, 191, 191, 0.603) solid;
+  border-radius: 102px 0px 102px 0px;
+}
+.imgsize3 {
+  height: 276px;
+  width: 199px;
+}
+
+/* for footer tag  */
+
+.footer1 {
+  height: 231px;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.footer_container {
+  height: 205px;
+  width: 864px;
+  display: flex;
+  margin-top: 12px;
+}
+.f_text {
+  height: 201px;
+  width: 233px;
+  line-height: 41px;
+  font-family: "Lato", sans-serif;
+}
+
+.all_imgcontainer {
+  height: 200px;
+  width: 314px;
+  line-height: 76px;
+}
+.fimg_container {
+  display: flex;
+}
+.f_imgsize {
+  height: 26px;
+  width: 30px;
+  border-radius: 37px;
+}
+.fimg_text {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  margin-left: 20px;
+  font-family: "Lato", sans-serif;
+}
+#height {
+  margin-top: 34px;
+}
+.link_f {
+  color: white;
+}
+.l_footer {
+  background-color: #3a60aa;
+  text-align: center;
+  color: #ffeded;
+  font-family: "Lato", sans-serif;
+  height: 21px;
+}
+/* ! after login ok final hai div.show aur container login */
+div .shows {
+  color: white;
+  margin-right: -8px;
+  background-color: rgb(72 159 175);
+  height: 33px;
+  width: 121px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.container_logintt {
+  width: 202px;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 2px;
+  background-color: red;
+}
+
+/* for responsive */
+
+@media screen and (max-width: 576px) {
+  header {
+    width: 400px;
+    height: 81px;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo img {
+    width: 97px;
+    height: 40px;
+  }
+  .searchdiv {
+    position: relative;
+    bottom: 78px;
+  }
+  .searchdiv input {
+    font-size: 11px;
+    width: 224px;
+    height: 27px;
+    margin-right: -149px;
+  }
+  .searchimg {
+    width: 20px;
+    left: 117px;
+  }
+  nav ul {
+    text-align: center;
+    height: 41px;
+    width: 240px;
+  }
+
+  nav ul li {
+    padding: 0px 9px;
+    width: 66px;
+  }
+  nav ul li a {
+    font-size: 12px;
+  }
+  .container_login {
+    width: 156px;
+    height: 39px;
+    position: relative;
+    left: 242px;
+    bottom: 72px;
+  }
+  .log {
+    border-radius: 8px;
+    height: 23px;
+    width: 68px;
+    margin-left: 7px;
+  }
+  .logout {
+    border-radius: 8px;
+    height: 22px;
+    width: 69px;
+  }
+  main {
+    width: 402px;
+    height: 2823px;
+  }
+  .bgimage-container {
+    height: 191px;
+    width: 396px;
+    margin-top: 84px;
+  }
+  .big-imagediv {
+    height: 190px;
+    width: 395px;
+  }
+  #big-image {
+    height: 188px;
+    width: 391px;
+  }
+  /* product title */
+  .titletext {
+    height: 19px;
+    width: 396px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+  }
+  div h3 {
+    font-size: 15px;
+    color: rgba(11, 108, 18, 0.739);
+    margin-left: 6px;
+    width: 389px;
+    height: 16px;
+  }
+  .container-product1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 852px;
+  }
+
+  /* product first line  */
+
+  .product {
+    width: 195px;
+    height: 273px;
+  }
+  div h4 {
+    font-size: 15px;
+  }
+  .textbelow {
+    line-height: 15px;
+  }
+  .Rs {
+    font-size: 12px;
+  }
+  p {
+    font-size: 13px;
+  }
+
+  /* product 2nd and 3rd line */
+
+  .product3 {
+    width: 195px;
+    height: 273px;
+  }
+  /* product first line  */
+  .img-container1 {
+    height: 196px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* product 2nd and 3rd line */
+  .img-container {
+    height: 196px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+  }
+  /* product first line and 2nd line  */
+  .imgsize {
+    height: 196px;
+    width: 157px;
+  }
+  /* product  3rd line */
+  .imgsize3 {
+    height: 196px;
+    width: 157px;
+  }
+  /* for footer  */
+  .footer1 {
+    width: 400px;
+    justify-content: flex-start;
+  }
+  .footer_container {
+    width: 400px;
+  }
+  .f_text {
+    width: 400px;
+  }
+  .fimg_text {
+    font-size: 10px;
+    margin-left: 6px;
+  }
+  .l_footer {
+    width: 400px;
+  }
+}

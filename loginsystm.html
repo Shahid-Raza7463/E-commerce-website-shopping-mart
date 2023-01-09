@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\loginsystm.css">
+    <script src="js\login.js"></script>
+    <script src="js\signup.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <input type="checkbox" id="flip">
+        <div class="cover">
+            <div class="front">
+                <img src="img\loginimg\frontImg.jpg" alt="">
+                <div class="text">
+                    <span class="text-1">Every new friend is a <br> new adventure</span>
+                    <span class="text-2">Let's get connected</span>
+                </div>
+            </div>
+            <div class="back">
+                <img class="backImg" src="img\loginimg\backImg.jpg" alt="">
+                <div class="text">
+                    <span class="text-1">Complete miles of journey <br> with one step</span>
+                    <span class="text-2">Let's get started</span>
+                </div>
+            </div>
+        </div>
+        <div class="forms">
+            <div class="form-content">
+                <div class="login-form">
+                    <div class="title">Login</div>
+                    <form action=".\php\login.php" method="post" onsubmit=" return form_validate()">
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <i class="fas fa-envelope"></i>
+                                <input type="text" placeholder="Enter your email" id="userid" name="user">
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Enter your password" id="lpass" name="lpass">
+                            </div>
+                            <div class="text"><a href="#">Forgot password?</a></div>
+                            <div class="button input-box">
+                                <input type="submit" value="Sumbit">
+                            </div>
+                            <div class="text sign-up-text">Don't have an account? <label for="flip">Sigup now</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="signup-form">
+                    <div class="title">Signup</div>
+                    <form action=".\php\signupp.php" method="post" onsubmit=" return form_validation()">
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Enter your name" id="fname" name="name">
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-envelope"></i>
+                                <input type="text" placeholder="Enter your email" id="email" name="mail">
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Enter your password" id="password" name="password1">
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" placeholder="Confirm password" id="cpassword" name="cpassword2">
+                            </div>
+                            <div class="button input-box">
+                                <input type="submit" value="Sumbit">
+                            </div>
+                            <div class="text sign-up-text">Already have an account? <label for="flip">Login now</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
