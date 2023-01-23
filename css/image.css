@@ -21,7 +21,7 @@ img {
   height: 388px;
   width: 312px;
 }
-@media screen and (max-width: 1319px) {
+/* @media screen and (max-width: 1319px) {
   .container {
     background-color: rgb(199, 231, 19);
     height: 461px;
@@ -33,7 +33,7 @@ img {
     width: 186px;
   }
   .img-container {
-    /* background-color: orangered; */
+    background-color: orangered;
     height: 228px;
     width: 183px;
   }
@@ -45,4 +45,4 @@ img {
     height: 225px;
     width: 181px;
   }
-}
+} */
